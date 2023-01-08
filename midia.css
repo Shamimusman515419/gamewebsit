@@ -38,23 +38,21 @@
     margin: 10px auto;
  cursor: pointer;
 }
-/* .divbar button {
-   font-size: 25px;
-   color: #fff;
-   background-color: blue;
-   padding: 5px 15px;
-   outline: none;
-   border: none;
-   margin: 10px auto;
-   border-radius: 10px;
-   width: 200px;
-   transition: 0.5s;
-}
+
 
 .divbar button:hover {
    background: linear-gradient(to right, rgb(255, 0, 212), blue);
-} */
-
+} 
+.container h1{
+    font-size: 45px;
+    font-weight: 800px;
+    color: rgb(0, 0, 134);
+    text-align: center;
+    margin: 10px 0;
+}
+.container h1 span{
+    color: rgb(136, 1, 125);
+}
 
 #result {
    font-size: 50px;
@@ -62,4 +60,8 @@
    font-weight: 600;
    margin: 10px 0;
    position: relative;
+}
+img{
+    width: 100%;
+    height: auto;
 }
