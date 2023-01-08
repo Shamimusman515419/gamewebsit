@@ -1,0 +1,65 @@
+.grid {
+   max-width: 600px;
+   height: 600px;
+   margin: auto;
+}
+
+.grid img {
+   width: 150px;
+   height: 150px;
+}
+
+.divbar {
+   text-align: center;
+
+   padding: 20px;
+  
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+
+}
+
+.divbar img {
+   width: 100%;
+   height: 500px;
+   border-radius: 15px;
+  
+}
+.divbar button{
+    outline: none;
+    border: none;
+    background-color: blue;
+    color: #fff;
+    padding: 5px 15px;
+    font-size: 25px;
+    border-radius: 15px;
+    margin: 10px auto;
+ cursor: pointer;
+}
+/* .divbar button {
+   font-size: 25px;
+   color: #fff;
+   background-color: blue;
+   padding: 5px 15px;
+   outline: none;
+   border: none;
+   margin: 10px auto;
+   border-radius: 10px;
+   width: 200px;
+   transition: 0.5s;
+}
+
+.divbar button:hover {
+   background: linear-gradient(to right, rgb(255, 0, 212), blue);
+} */
+
+
+#result {
+   font-size: 50px;
+   color: blue;
+   font-weight: 600;
+   margin: 10px 0;
+   position: relative;
+}
